@@ -1,0 +1,252 @@
+\hypertarget{class_zadanie7_1_1_okno_wlasciwe}{}\section{Zadanie7.\+Okno\+Wlasciwe Class Reference}
+\label{class_zadanie7_1_1_okno_wlasciwe}\index{Zadanie7.\+Okno\+Wlasciwe@{Zadanie7.\+Okno\+Wlasciwe}}
+Inheritance diagram for Zadanie7.\+Okno\+Wlasciwe\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_zadanie7_1_1_okno_wlasciwe}
+\end{center}
+\end{figure}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{class_zadanie7_1_1_okno_wlasciwe_1_1_watki_wlasciwe}{Watki\+Wlasciwe}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_zadanie7_1_1_okno_wlasciwe_ad6be5bc65e9c28156611abe622b27fd6}{paint} (Graphics g)
+\begin{DoxyCompactList}\small\item\em podwojne buforowanie \end{DoxyCompactList}\item 
+void \hyperlink{class_zadanie7_1_1_okno_wlasciwe_a2cfd87352800ef1a9aa7746033a5436b}{paint\+Components} (Graphics g)
+\begin{DoxyCompactList}\small\item\em rysowanie boksow \end{DoxyCompactList}\item 
+void \hyperlink{class_zadanie7_1_1_okno_wlasciwe_a48ca8c4ab5ec7949801e31a2359a689f}{component\+Resized} (Component\+Event e)
+\begin{DoxyCompactList}\small\item\em skalowanie, zaleznie od wielkosci nowego okna \end{DoxyCompactList}\item 
+void \hyperlink{class_zadanie7_1_1_okno_wlasciwe_a5691cd056cd2bf85af4f53e29fed7b43}{component\+Hidden} (Component\+Event arg0)
+\item 
+void \hyperlink{class_zadanie7_1_1_okno_wlasciwe_a64d00ee7a3be96cfabb548ee54fe7915}{component\+Moved} (Component\+Event arg0)
+\item 
+void \hyperlink{class_zadanie7_1_1_okno_wlasciwe_ab2ee70e1ec0517025b4530f963321dd4}{component\+Shown} (Component\+Event arg0)
+\end{DoxyCompactItemize}
+\subsection*{Package Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_zadanie7_1_1_okno_wlasciwe_a09f8c68cad5eb49f7229c1141acfd832}{Okno\+Wlasciwe} (int \hyperlink{class_zadanie7_1_1_okno_wlasciwe_a2ac6a5aa6284f4835a12a68754ae80b8}{m}, int \hyperlink{class_zadanie7_1_1_okno_wlasciwe_a9def326ff03537e3e304e17fc99ab674}{n}, int k, int p)
+\begin{DoxyCompactList}\small\item\em Generowanie planszy z symulacja. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Random \hyperlink{class_zadanie7_1_1_okno_wlasciwe_a9ae176d92e991a053b101aad6fdf7cdf}{los} =new Random()
+\begin{DoxyCompactList}\small\item\em los-\/jedyny generator losowy \end{DoxyCompactList}\item 
+double \hyperlink{class_zadanie7_1_1_okno_wlasciwe_afc22e58c9c97b94e580568fb79a36bef}{x} =20
+\begin{DoxyCompactList}\small\item\em x-\/wspolrzedna x, przesunieta o 20 w celu otrzymania lepszego efektu graficznego \end{DoxyCompactList}\item 
+double \hyperlink{class_zadanie7_1_1_okno_wlasciwe_a59d4e6fb76e7711fb07bfcb0df74d9e6}{y} =40
+\begin{DoxyCompactList}\small\item\em y-\/wspolrzedna y, przesunieta o 40 w celu otrzymania lepszego efektu graficznego \end{DoxyCompactList}\item 
+double \hyperlink{class_zadanie7_1_1_okno_wlasciwe_a160d088398a77a3897d8bac099c56577}{w}
+\begin{DoxyCompactList}\small\item\em w-\/szerokosc naszego boksu \end{DoxyCompactList}\item 
+double \hyperlink{class_zadanie7_1_1_okno_wlasciwe_ac8bed36b0724579fa1bab6098bbd4204}{h}
+\begin{DoxyCompactList}\small\item\em h-\/wysokosc naszego boksu \end{DoxyCompactList}\item 
+int \hyperlink{class_zadanie7_1_1_okno_wlasciwe_a2ac6a5aa6284f4835a12a68754ae80b8}{m}
+\begin{DoxyCompactList}\small\item\em szerokosc planszy liczona w boksach \end{DoxyCompactList}\item 
+int \hyperlink{class_zadanie7_1_1_okno_wlasciwe_a9def326ff03537e3e304e17fc99ab674}{n}
+\begin{DoxyCompactList}\small\item\em wysokosc planszy liczona w boksach \end{DoxyCompactList}\item 
+Rectangle2D\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} \hyperlink{class_zadanie7_1_1_okno_wlasciwe_a76e7cdaa5f7d262c3466f9e28126a1a4}{t}
+\begin{DoxyCompactList}\small\item\em t-\/ tablica prostokatow ktore beda robic za boksy \end{DoxyCompactList}\item 
+Color\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} \hyperlink{class_zadanie7_1_1_okno_wlasciwe_a6adcf3f4cbee43c70583647ed34b9db4}{kolor}
+\begin{DoxyCompactList}\small\item\em kolor-\/ tablica kolorow \end{DoxyCompactList}\item 
+\hyperlink{class_zadanie7_1_1_okno_wlasciwe_1_1_watki_wlasciwe}{Watki\+Wlasciwe}\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} \hyperlink{class_zadanie7_1_1_okno_wlasciwe_ac767c1f94c8102a043d4cd4f85eb99ba}{a}
+\begin{DoxyCompactList}\small\item\em a-\/tablica watkow \end{DoxyCompactList}\item 
+Image \hyperlink{class_zadanie7_1_1_okno_wlasciwe_acb927a7852ab3d56d14b896ccbac3446}{obraz}
+\item 
+Graphics \hyperlink{class_zadanie7_1_1_okno_wlasciwe_ae40d1f4b0ba77778e9aff178a22d8caf}{g22}
+\end{DoxyCompactItemize}
+\subsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final long \hyperlink{class_zadanie7_1_1_okno_wlasciwe_ad82a67e6a62aab90682d92db18f794d1}{serial\+Version\+U\+ID} = 1L
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+Tymoteusz Surynt 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{Zadanie7\+::\+Okno\+Wlasciwe@{Zadanie7\+::\+Okno\+Wlasciwe}!Okno\+Wlasciwe@{Okno\+Wlasciwe}}
+\index{Okno\+Wlasciwe@{Okno\+Wlasciwe}!Zadanie7\+::\+Okno\+Wlasciwe@{Zadanie7\+::\+Okno\+Wlasciwe}}
+\subsubsection[{\texorpdfstring{Okno\+Wlasciwe(int m, int n, int k, int p)}{OknoWlasciwe(int m, int n, int k, int p)}}]{\setlength{\rightskip}{0pt plus 5cm}Zadanie7.\+Okno\+Wlasciwe.\+Okno\+Wlasciwe (
+\begin{DoxyParamCaption}
+\item[{int}]{m, }
+\item[{int}]{n, }
+\item[{int}]{k, }
+\item[{int}]{p}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [package]}}\hypertarget{class_zadanie7_1_1_okno_wlasciwe_a09f8c68cad5eb49f7229c1141acfd832}{}\label{class_zadanie7_1_1_okno_wlasciwe_a09f8c68cad5eb49f7229c1141acfd832}
+
+
+Generowanie planszy z symulacja. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em m} & szerokosc planszy liczona w boksach (int) \\
+\hline
+{\em n} & wysokosc planszy liczona w boksach (int) \\
+\hline
+{\em k} & szybkosc dzialania programu, im wiecej tym wolniej (int) \\
+\hline
+{\em p} & prawdopodobienstwo w procentach (int) \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\index{Zadanie7\+::\+Okno\+Wlasciwe@{Zadanie7\+::\+Okno\+Wlasciwe}!component\+Hidden@{component\+Hidden}}
+\index{component\+Hidden@{component\+Hidden}!Zadanie7\+::\+Okno\+Wlasciwe@{Zadanie7\+::\+Okno\+Wlasciwe}}
+\subsubsection[{\texorpdfstring{component\+Hidden(\+Component\+Event arg0)}{componentHidden(ComponentEvent arg0)}}]{\setlength{\rightskip}{0pt plus 5cm}void Zadanie7.\+Okno\+Wlasciwe.\+component\+Hidden (
+\begin{DoxyParamCaption}
+\item[{Component\+Event}]{arg0}
+\end{DoxyParamCaption}
+)}\hypertarget{class_zadanie7_1_1_okno_wlasciwe_a5691cd056cd2bf85af4f53e29fed7b43}{}\label{class_zadanie7_1_1_okno_wlasciwe_a5691cd056cd2bf85af4f53e29fed7b43}
+\index{Zadanie7\+::\+Okno\+Wlasciwe@{Zadanie7\+::\+Okno\+Wlasciwe}!component\+Moved@{component\+Moved}}
+\index{component\+Moved@{component\+Moved}!Zadanie7\+::\+Okno\+Wlasciwe@{Zadanie7\+::\+Okno\+Wlasciwe}}
+\subsubsection[{\texorpdfstring{component\+Moved(\+Component\+Event arg0)}{componentMoved(ComponentEvent arg0)}}]{\setlength{\rightskip}{0pt plus 5cm}void Zadanie7.\+Okno\+Wlasciwe.\+component\+Moved (
+\begin{DoxyParamCaption}
+\item[{Component\+Event}]{arg0}
+\end{DoxyParamCaption}
+)}\hypertarget{class_zadanie7_1_1_okno_wlasciwe_a64d00ee7a3be96cfabb548ee54fe7915}{}\label{class_zadanie7_1_1_okno_wlasciwe_a64d00ee7a3be96cfabb548ee54fe7915}
+\index{Zadanie7\+::\+Okno\+Wlasciwe@{Zadanie7\+::\+Okno\+Wlasciwe}!component\+Resized@{component\+Resized}}
+\index{component\+Resized@{component\+Resized}!Zadanie7\+::\+Okno\+Wlasciwe@{Zadanie7\+::\+Okno\+Wlasciwe}}
+\subsubsection[{\texorpdfstring{component\+Resized(\+Component\+Event e)}{componentResized(ComponentEvent e)}}]{\setlength{\rightskip}{0pt plus 5cm}void Zadanie7.\+Okno\+Wlasciwe.\+component\+Resized (
+\begin{DoxyParamCaption}
+\item[{Component\+Event}]{e}
+\end{DoxyParamCaption}
+)}\hypertarget{class_zadanie7_1_1_okno_wlasciwe_a48ca8c4ab5ec7949801e31a2359a689f}{}\label{class_zadanie7_1_1_okno_wlasciwe_a48ca8c4ab5ec7949801e31a2359a689f}
+
+
+skalowanie, zaleznie od wielkosci nowego okna 
+
+\index{Zadanie7\+::\+Okno\+Wlasciwe@{Zadanie7\+::\+Okno\+Wlasciwe}!component\+Shown@{component\+Shown}}
+\index{component\+Shown@{component\+Shown}!Zadanie7\+::\+Okno\+Wlasciwe@{Zadanie7\+::\+Okno\+Wlasciwe}}
+\subsubsection[{\texorpdfstring{component\+Shown(\+Component\+Event arg0)}{componentShown(ComponentEvent arg0)}}]{\setlength{\rightskip}{0pt plus 5cm}void Zadanie7.\+Okno\+Wlasciwe.\+component\+Shown (
+\begin{DoxyParamCaption}
+\item[{Component\+Event}]{arg0}
+\end{DoxyParamCaption}
+)}\hypertarget{class_zadanie7_1_1_okno_wlasciwe_ab2ee70e1ec0517025b4530f963321dd4}{}\label{class_zadanie7_1_1_okno_wlasciwe_ab2ee70e1ec0517025b4530f963321dd4}
+\index{Zadanie7\+::\+Okno\+Wlasciwe@{Zadanie7\+::\+Okno\+Wlasciwe}!paint@{paint}}
+\index{paint@{paint}!Zadanie7\+::\+Okno\+Wlasciwe@{Zadanie7\+::\+Okno\+Wlasciwe}}
+\subsubsection[{\texorpdfstring{paint(\+Graphics g)}{paint(Graphics g)}}]{\setlength{\rightskip}{0pt plus 5cm}void Zadanie7.\+Okno\+Wlasciwe.\+paint (
+\begin{DoxyParamCaption}
+\item[{Graphics}]{g}
+\end{DoxyParamCaption}
+)}\hypertarget{class_zadanie7_1_1_okno_wlasciwe_ad6be5bc65e9c28156611abe622b27fd6}{}\label{class_zadanie7_1_1_okno_wlasciwe_ad6be5bc65e9c28156611abe622b27fd6}
+
+
+podwojne buforowanie 
+
+\index{Zadanie7\+::\+Okno\+Wlasciwe@{Zadanie7\+::\+Okno\+Wlasciwe}!paint\+Components@{paint\+Components}}
+\index{paint\+Components@{paint\+Components}!Zadanie7\+::\+Okno\+Wlasciwe@{Zadanie7\+::\+Okno\+Wlasciwe}}
+\subsubsection[{\texorpdfstring{paint\+Components(\+Graphics g)}{paintComponents(Graphics g)}}]{\setlength{\rightskip}{0pt plus 5cm}void Zadanie7.\+Okno\+Wlasciwe.\+paint\+Components (
+\begin{DoxyParamCaption}
+\item[{Graphics}]{g}
+\end{DoxyParamCaption}
+)}\hypertarget{class_zadanie7_1_1_okno_wlasciwe_a2cfd87352800ef1a9aa7746033a5436b}{}\label{class_zadanie7_1_1_okno_wlasciwe_a2cfd87352800ef1a9aa7746033a5436b}
+
+
+rysowanie boksow 
+
+
+
+\subsection{Member Data Documentation}
+\index{Zadanie7\+::\+Okno\+Wlasciwe@{Zadanie7\+::\+Okno\+Wlasciwe}!a@{a}}
+\index{a@{a}!Zadanie7\+::\+Okno\+Wlasciwe@{Zadanie7\+::\+Okno\+Wlasciwe}}
+\subsubsection[{\texorpdfstring{a}{a}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Watki\+Wlasciwe} \mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} Zadanie7.\+Okno\+Wlasciwe.\+a\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_zadanie7_1_1_okno_wlasciwe_ac767c1f94c8102a043d4cd4f85eb99ba}{}\label{class_zadanie7_1_1_okno_wlasciwe_ac767c1f94c8102a043d4cd4f85eb99ba}
+
+
+a-\/tablica watkow 
+
+\index{Zadanie7\+::\+Okno\+Wlasciwe@{Zadanie7\+::\+Okno\+Wlasciwe}!g22@{g22}}
+\index{g22@{g22}!Zadanie7\+::\+Okno\+Wlasciwe@{Zadanie7\+::\+Okno\+Wlasciwe}}
+\subsubsection[{\texorpdfstring{g22}{g22}}]{\setlength{\rightskip}{0pt plus 5cm}Graphics Zadanie7.\+Okno\+Wlasciwe.\+g22\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_zadanie7_1_1_okno_wlasciwe_ae40d1f4b0ba77778e9aff178a22d8caf}{}\label{class_zadanie7_1_1_okno_wlasciwe_ae40d1f4b0ba77778e9aff178a22d8caf}
+\index{Zadanie7\+::\+Okno\+Wlasciwe@{Zadanie7\+::\+Okno\+Wlasciwe}!h@{h}}
+\index{h@{h}!Zadanie7\+::\+Okno\+Wlasciwe@{Zadanie7\+::\+Okno\+Wlasciwe}}
+\subsubsection[{\texorpdfstring{h}{h}}]{\setlength{\rightskip}{0pt plus 5cm}double Zadanie7.\+Okno\+Wlasciwe.\+h\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_zadanie7_1_1_okno_wlasciwe_ac8bed36b0724579fa1bab6098bbd4204}{}\label{class_zadanie7_1_1_okno_wlasciwe_ac8bed36b0724579fa1bab6098bbd4204}
+
+
+h-\/wysokosc naszego boksu 
+
+\index{Zadanie7\+::\+Okno\+Wlasciwe@{Zadanie7\+::\+Okno\+Wlasciwe}!kolor@{kolor}}
+\index{kolor@{kolor}!Zadanie7\+::\+Okno\+Wlasciwe@{Zadanie7\+::\+Okno\+Wlasciwe}}
+\subsubsection[{\texorpdfstring{kolor}{kolor}}]{\setlength{\rightskip}{0pt plus 5cm}Color \mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} Zadanie7.\+Okno\+Wlasciwe.\+kolor\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_zadanie7_1_1_okno_wlasciwe_a6adcf3f4cbee43c70583647ed34b9db4}{}\label{class_zadanie7_1_1_okno_wlasciwe_a6adcf3f4cbee43c70583647ed34b9db4}
+
+
+kolor-\/ tablica kolorow 
+
+\index{Zadanie7\+::\+Okno\+Wlasciwe@{Zadanie7\+::\+Okno\+Wlasciwe}!los@{los}}
+\index{los@{los}!Zadanie7\+::\+Okno\+Wlasciwe@{Zadanie7\+::\+Okno\+Wlasciwe}}
+\subsubsection[{\texorpdfstring{los}{los}}]{\setlength{\rightskip}{0pt plus 5cm}Random Zadanie7.\+Okno\+Wlasciwe.\+los =new Random()\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_zadanie7_1_1_okno_wlasciwe_a9ae176d92e991a053b101aad6fdf7cdf}{}\label{class_zadanie7_1_1_okno_wlasciwe_a9ae176d92e991a053b101aad6fdf7cdf}
+
+
+los-\/jedyny generator losowy 
+
+\index{Zadanie7\+::\+Okno\+Wlasciwe@{Zadanie7\+::\+Okno\+Wlasciwe}!m@{m}}
+\index{m@{m}!Zadanie7\+::\+Okno\+Wlasciwe@{Zadanie7\+::\+Okno\+Wlasciwe}}
+\subsubsection[{\texorpdfstring{m}{m}}]{\setlength{\rightskip}{0pt plus 5cm}int Zadanie7.\+Okno\+Wlasciwe.\+m\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_zadanie7_1_1_okno_wlasciwe_a2ac6a5aa6284f4835a12a68754ae80b8}{}\label{class_zadanie7_1_1_okno_wlasciwe_a2ac6a5aa6284f4835a12a68754ae80b8}
+
+
+szerokosc planszy liczona w boksach 
+
+\begin{DoxySeeAlso}{See also}
+\hyperlink{class_zadanie7_1_1_okno_pierwsze_a8166de2f991b42c6eeebab44994e4305}{Zadanie7.\+Okno\+Pierwsze\+::m} szerokosc 
+\end{DoxySeeAlso}
+\index{Zadanie7\+::\+Okno\+Wlasciwe@{Zadanie7\+::\+Okno\+Wlasciwe}!n@{n}}
+\index{n@{n}!Zadanie7\+::\+Okno\+Wlasciwe@{Zadanie7\+::\+Okno\+Wlasciwe}}
+\subsubsection[{\texorpdfstring{n}{n}}]{\setlength{\rightskip}{0pt plus 5cm}int Zadanie7.\+Okno\+Wlasciwe.\+n\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_zadanie7_1_1_okno_wlasciwe_a9def326ff03537e3e304e17fc99ab674}{}\label{class_zadanie7_1_1_okno_wlasciwe_a9def326ff03537e3e304e17fc99ab674}
+
+
+wysokosc planszy liczona w boksach 
+
+\begin{DoxySeeAlso}{See also}
+\hyperlink{class_zadanie7_1_1_okno_pierwsze_a4288fe2e8591c765e47e1396ee3ced8b}{Zadanie7.\+Okno\+Pierwsze\+::n} wysokosc 
+\end{DoxySeeAlso}
+\index{Zadanie7\+::\+Okno\+Wlasciwe@{Zadanie7\+::\+Okno\+Wlasciwe}!obraz@{obraz}}
+\index{obraz@{obraz}!Zadanie7\+::\+Okno\+Wlasciwe@{Zadanie7\+::\+Okno\+Wlasciwe}}
+\subsubsection[{\texorpdfstring{obraz}{obraz}}]{\setlength{\rightskip}{0pt plus 5cm}Image Zadanie7.\+Okno\+Wlasciwe.\+obraz\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_zadanie7_1_1_okno_wlasciwe_acb927a7852ab3d56d14b896ccbac3446}{}\label{class_zadanie7_1_1_okno_wlasciwe_acb927a7852ab3d56d14b896ccbac3446}
+\index{Zadanie7\+::\+Okno\+Wlasciwe@{Zadanie7\+::\+Okno\+Wlasciwe}!serial\+Version\+U\+ID@{serial\+Version\+U\+ID}}
+\index{serial\+Version\+U\+ID@{serial\+Version\+U\+ID}!Zadanie7\+::\+Okno\+Wlasciwe@{Zadanie7\+::\+Okno\+Wlasciwe}}
+\subsubsection[{\texorpdfstring{serial\+Version\+U\+ID}{serialVersionUID}}]{\setlength{\rightskip}{0pt plus 5cm}final long Zadanie7.\+Okno\+Wlasciwe.\+serial\+Version\+U\+ID = 1L\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\hypertarget{class_zadanie7_1_1_okno_wlasciwe_ad82a67e6a62aab90682d92db18f794d1}{}\label{class_zadanie7_1_1_okno_wlasciwe_ad82a67e6a62aab90682d92db18f794d1}
+\index{Zadanie7\+::\+Okno\+Wlasciwe@{Zadanie7\+::\+Okno\+Wlasciwe}!t@{t}}
+\index{t@{t}!Zadanie7\+::\+Okno\+Wlasciwe@{Zadanie7\+::\+Okno\+Wlasciwe}}
+\subsubsection[{\texorpdfstring{t}{t}}]{\setlength{\rightskip}{0pt plus 5cm}Rectangle2D \mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} Zadanie7.\+Okno\+Wlasciwe.\+t\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_zadanie7_1_1_okno_wlasciwe_a76e7cdaa5f7d262c3466f9e28126a1a4}{}\label{class_zadanie7_1_1_okno_wlasciwe_a76e7cdaa5f7d262c3466f9e28126a1a4}
+
+
+t-\/ tablica prostokatow ktore beda robic za boksy 
+
+\index{Zadanie7\+::\+Okno\+Wlasciwe@{Zadanie7\+::\+Okno\+Wlasciwe}!w@{w}}
+\index{w@{w}!Zadanie7\+::\+Okno\+Wlasciwe@{Zadanie7\+::\+Okno\+Wlasciwe}}
+\subsubsection[{\texorpdfstring{w}{w}}]{\setlength{\rightskip}{0pt plus 5cm}double Zadanie7.\+Okno\+Wlasciwe.\+w\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_zadanie7_1_1_okno_wlasciwe_a160d088398a77a3897d8bac099c56577}{}\label{class_zadanie7_1_1_okno_wlasciwe_a160d088398a77a3897d8bac099c56577}
+
+
+w-\/szerokosc naszego boksu 
+
+\index{Zadanie7\+::\+Okno\+Wlasciwe@{Zadanie7\+::\+Okno\+Wlasciwe}!x@{x}}
+\index{x@{x}!Zadanie7\+::\+Okno\+Wlasciwe@{Zadanie7\+::\+Okno\+Wlasciwe}}
+\subsubsection[{\texorpdfstring{x}{x}}]{\setlength{\rightskip}{0pt plus 5cm}double Zadanie7.\+Okno\+Wlasciwe.\+x =20\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_zadanie7_1_1_okno_wlasciwe_afc22e58c9c97b94e580568fb79a36bef}{}\label{class_zadanie7_1_1_okno_wlasciwe_afc22e58c9c97b94e580568fb79a36bef}
+
+
+x-\/wspolrzedna x, przesunieta o 20 w celu otrzymania lepszego efektu graficznego 
+
+\index{Zadanie7\+::\+Okno\+Wlasciwe@{Zadanie7\+::\+Okno\+Wlasciwe}!y@{y}}
+\index{y@{y}!Zadanie7\+::\+Okno\+Wlasciwe@{Zadanie7\+::\+Okno\+Wlasciwe}}
+\subsubsection[{\texorpdfstring{y}{y}}]{\setlength{\rightskip}{0pt plus 5cm}double Zadanie7.\+Okno\+Wlasciwe.\+y =40\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_zadanie7_1_1_okno_wlasciwe_a59d4e6fb76e7711fb07bfcb0df74d9e6}{}\label{class_zadanie7_1_1_okno_wlasciwe_a59d4e6fb76e7711fb07bfcb0df74d9e6}
+
+
+y-\/wspolrzedna y, przesunieta o 40 w celu otrzymania lepszego efektu graficznego 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_okno_wlasciwe_8java}{Okno\+Wlasciwe.\+java}\end{DoxyCompactItemize}
